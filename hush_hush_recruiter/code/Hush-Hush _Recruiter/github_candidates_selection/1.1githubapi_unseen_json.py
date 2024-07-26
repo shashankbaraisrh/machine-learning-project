@@ -6,7 +6,7 @@ class GitHubDataFetcher:
     def __init__(self):
         self.headers = {
             "Accept": "application/vnd.github+json ",
-            "Authorization": "Bearer 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",
+            #"Authorization": "",
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59',
             "X-GitHub-Api-Version": "2022-11-28"
         }
